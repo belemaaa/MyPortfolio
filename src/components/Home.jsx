@@ -10,21 +10,22 @@ const Home = () => {
         <div className='max-w-screen-lg mx-auto flex flex-col items-center
         justify-center h-full px-4 md:flex-row'>
             <div class="flex flex-col justify-center h-full max-w-lg">
-                <h1 className=' text-4xl md:text-6xl mt-40 md:mt-0'>Welcome!</h1>
+                <h1 className=' text-4xl md:text-6xl'>Welcome!</h1>
                 <h3 className=' text-xl mt-2 font-bold'>I am Grace Itamunoala</h3>
                 <p className='text-gray-500 py-4'>I am a <span className='font-bold'>Full Stack</span> developer with a strong command of frontend and backend development, enabling me to build robust 
                 and scalable web applcations. I love to work on web applications using various technologies including
                 Python, Java, ReactJS, HTML, TailwindCSS and Django.</p>
 
-                <div className='mt-6 bg-blue-400 rounded-2xl mr-96'>
-                    <button className=''>
-                        Portfolio <span><TbCircleArrowRightFilled/></span>
+                <div>
+                    <button className='group w-fit text-white px-5 py-3 my-2
+                    flex items-center rounded-xl bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer'>
+                        Portfolio <span className='group-hover:rotate-90 duration-200 ml-2 text-2xl'><TbCircleArrowRightFilled/></span>
                     </button>
                 </div>
             </div>
 
             <div>
-                <img src={HomeImage} className='rounded-xl mx-auto w-full h-60 md:ml-14' />
+                <img src={HomeImage} className='mb-2 md:mt-0 mx-auto w-full h-60 md:ml-14' />
             </div>
           
         </div>
