@@ -34,26 +34,30 @@ const NavBar = () => {
             </div>
 
             <ul className='hidden md:flex'>
-            {links.map(({id, link}) => (
-                <li key={id} className='px-4 cursor-pointer font-medium text-gray-500 hover:scale-105 duration-200
-                capitalize'>{link}</li>
+                {/* loop through list items */}
+                {links.map(({id, link}) => (
+                    <li key={id} className='px-4 cursor-pointer font-medium text-gray-500 hover:scale-105 duration-200
+                    capitalize'>{link}</li>
 
-            ))}              
+                ))}              
             </ul>
 
+                {/* set nav and nav condition */}
             <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-gray-500'>
                 {nav ? <FaTimes size={30} /> : <FaBars size={30} />} 
-            </div>
+            </div>  
 
-            <ul className="flex flex-col justify-center items-center w-full h-screen 
-            absolute top-0 left-0  bg-gradient-to-b from-black to-gray-800 text-gray-500">
-            {links.map(({id, link}) => (
-                <li key={id} className='px-4 py-5 cursor-pointer text-3xl hover:scale-105 duration-200
-                capitalize'>{link}</li>
+            {nav && (
+                <ul className="flex flex-col justify-center items-center w-full h-screen 
+                absolute top-0 left-0  bg-gradient-to-b from-black to-gray-800 text-gray-500">
+                    {links.map(({id, link}) => (
+                        <li key={id} className='px-4 py-5 cursor-pointer text-3xl hover:scale-105 duration-200
+                        capitalize'>{link}</li>
 
-            ))}    
-            </ul>
-
+                    ))}    
+                </ul>
+            )}       
+            
         </div>
     )
 }
