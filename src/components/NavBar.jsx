@@ -28,7 +28,7 @@ const NavBar = () => {
     ];
 
     return (
-        <div className='flex items-center justify-between w-full h-20 bg-black text-white fixed px-4'>
+        <div className='flex items-center justify-between w-full h-20 bg-white text-black fixed px-4'>
             <div>
                 <h1 className='font-signature text-5xl ml-2'>Grace</h1>
             </div>
@@ -43,7 +43,7 @@ const NavBar = () => {
             </ul>
 
                 {/* set nav and nav condition */}
-            <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-gray-500'>
+            <div onClick={() => setNav(!nav)} className='cursor-pointer pr-4 z-10 text-gray-500 md:hidden'>
                 {nav ? <FaTimes size={30} /> : <FaBars size={30} />} 
             </div>  
 
@@ -56,7 +56,8 @@ const NavBar = () => {
 
                     ))}    
                 </ul>
-            )}       
+            )}  
+            
             
         </div>
     )
