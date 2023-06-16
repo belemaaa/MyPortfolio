@@ -11,7 +11,7 @@ const Home = () => {
                 <h1 className=' text-4xl md:text-6xl lg:mt-20'>Welcome!</h1>
                 <h3 className=' text-xl mt-2 font-bold'>I am Grace Itamunoala</h3>
                 <p className='text-gray-500 py-4'>I am a <span className='font-bold'>Full Stack</span> developer with a strong command of frontend and backend development, enabling me to build robust 
-                and scalable web applcations. I love to work on web applications using various technologies including
+                and scalable web applications. I love to work on web applications using various technologies including
                 Python, Java, ReactJS, HTML, TailwindCSS and Django.</p>
 
                 <div>
