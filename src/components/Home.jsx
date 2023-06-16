@@ -1,7 +1,5 @@
 import React from 'react'
 import HomeImage from '../assets/portfolio/homeImage.jpeg';
-import {FaCircleArrowRight} from 'react-icons/fa';
-import {FaArrowRight} from "react-icons/fa";
 import {TbCircleArrowRightFilled} from 'react-icons/tb'
 
 const Home = () => {

@@ -28,7 +28,7 @@ const SocialLinks = () => {
             id: 3,
             child: (
                 <>
-                    Mail <span className='text-2xl'><HiOutlineMail /></span>
+                    Email <span className='text-2xl'><HiOutlineMail /></span>
                 </>
             ),
             href: 'mailto:graceitamunoala@gmail.com',
@@ -50,11 +50,13 @@ const SocialLinks = () => {
         <div className='flex flex-col top-[35%] left-0 fixed'>
             <ul>
                 {links.map(({id, child, href, style, download}) => (
-                    <li key={id} className={'flex items-center justify-between w-32 px-4 bg-gray-500 ml-[-80px] hover:rounded-md hover:ml-[-10px] duration-200' 
+                    <li key={id} className={'flex items-center justify-between w-32 px-4 bg-gray-500 ml-[-80px] hover:ml-[-10px] duration-200' 
                     + " " + style}>
                         <a
-                        href={href}
-                        className='flex justify-between items-center py-2 w-full text-white capitalize'>
+                            href={href}
+                            className='flex justify-between items-center py-2 w-full text-white'>
+                            {/* download={download}
+                            target='blank'   */}
                             <>
                                 {child}
                             </>
