@@ -7,8 +7,8 @@ const Home = () => {
     <div name="home" className='h-screen w-full bg-white'>
         <div className='max-w-screen-lg mx-auto flex flex-col items-center
         justify-center h-full px-4 md:flex-row'>
-            <div class="flex flex-col justify-center h-full max-w-xl">
-                <h1 className=' text-4xl md:text-6xl'>Welcome!</h1>
+            <div class="flex flex-col justify-center max-w-xl">
+                <h1 className=' text-4xl md:text-6xl lg:mt-20'>Welcome!</h1>
                 <h3 className=' text-xl mt-2 font-bold'>I am Grace Itamunoala</h3>
                 <p className='text-gray-500 py-4'>I am a <span className='font-bold'>Full Stack</span> developer with a strong command of frontend and backend development, enabling me to build robust 
                 and scalable web applcations. I love to work on web applications using various technologies including
@@ -23,7 +23,7 @@ const Home = () => {
             </div>
 
             <div>
-                <img src={HomeImage} className='mb-2 md:mt-0 mx-auto w-full h-60 md:ml-14 rounded-xl drop-shadow-2xl cursor-pointer' />
+                <img src={HomeImage} alt="laptop" className='mb-2 mt-8 md:mt-14 mx-auto w-full h-60 md:ml-14 rounded-xl drop-shadow-2xl cursor-pointer' />
             </div>
           
         </div>
