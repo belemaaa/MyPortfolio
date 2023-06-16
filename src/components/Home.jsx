@@ -23,7 +23,7 @@ const Home = () => {
             </div>
 
             <div>
-                <img src={HomeImage} alt="laptop" className='mb-2 mt-8 md:mt-14 mx-auto w-full h-60 md:ml-14 rounded-xl drop-shadow-2xl cursor-pointer' />
+                <img src={HomeImage} alt="laptop" className='mb-2 mt-8 mx-auto w-full h-60 md:ml-14 rounded-xl cursor-pointer' />
             </div>
           
         </div>

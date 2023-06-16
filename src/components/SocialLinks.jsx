@@ -12,7 +12,7 @@ const SocialLinks = () => {
                     LinkedIn <span className='text-2xl'><FaLinkedin /></span>
                 </>
             ),
-            href: 'https://linkedin.com',
+            href: 'https://linkedin.com/in/grace-itamunoala',
             style: 'rounded-tr-md'
         },
         {
