@@ -10,7 +10,7 @@ const Home = () => {
             <div class="flex flex-col justify-center max-w-xl">
                 <h1 className=' text-4xl md:text-6xl lg:mt-20'>Welcome!</h1>
                 <h3 className=' text-xl mt-2 font-bold'>I am Grace Itamunoala</h3>
-                <p className='text-gray-500 py-4'>I am a <span className='font-bold'>Full Stack</span> developer with a strong command of frontend and backend development, enabling me to build robust 
+                <p className='text-gray-500 py-4'>I am a <span className='font-bold'>Full Stack</span> developer highly skilled in both frontend and backend engineering, enabling me to build robust 
                 and scalable web applications. I love to work on web applications using various technologies including
                 Python, Java, ReactJS, HTML, TailwindCSS and Django.</p>
 
@@ -21,10 +21,10 @@ const Home = () => {
                     </button>
                 </div>
             </div>
-
+{/* 
             <div>
                 <img src={HomeImage} alt="laptop" className='mb-2 mt-8 mx-auto w-full h-60 md:ml-14 rounded-xl cursor-pointer' />
-            </div>
+            </div> */}
           
         </div>
     </div>
